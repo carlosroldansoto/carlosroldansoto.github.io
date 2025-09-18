@@ -17,11 +17,7 @@ function compartirEnlace() {
   }
 }
 
-/* Función que muestra la lista de servicios disponibles */
-/* PARA EDITAR: Cambiar el texto dentro de alert() por tus servicios */
-// function mostrarTelefono() {
-//   alert("787-993-3500 ext. 3656");
-// }
+/* Función para llamar al numero de la oficina */
 function mostrarTelefono() {
         document.getElementById('telefono-popup').style.display = 'block';
       }

@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
     <title>Business Card</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
     <link rel="stylesheet"
@@ -28,16 +29,12 @@
           <i class="fab fa-instagram"></i>
         </a> -->
         </div>
-
-        <!-- <button class="boton" onclick="mostrarTelefono()">
-        <i class="fas fa-phone"></i> Office Phone
-      </button> -->
         <button class="boton" onclick="mostrarTelefono()">
           <i class="fas fa-phone"></i> Office Phone
         </button>
         <div id="telefono-popup" class="popup" style="display:none;">
           <div class="popup-content">
-            <p>Phone: (787) 993-3500 ext. 3656</p>
+            <p>Phone: <span class="no-link">(787) 993-3500 ext. 3656</span></p>
             <div class="double-row">
               <button class="boton half"
                 onclick="llamarTelefono()">Llamar</button>

@@ -96,6 +96,12 @@ p {
 .social-btn:hover{ background:#444; }
 
 /* === BOTONES === */
+.no-link {
+  pointer-events: none;
+  color: inherit;
+  text-decoration: none;
+}
+
 .button-grid{
   display: grid;
   grid-template-columns: 1fr;
