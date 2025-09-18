@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business Card</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="image-container">
+        <img src="images/Banner.png" alt="Banner" class="banner" />
+      </div>
+
+      <h1>Carlos Roldán Soto</h1>
+      <p class="titulo">Banquet Manager</p>
+
+      <div class="button-grid">
+        <div class="social-row">
+          <!-- <a class="social-btn" href="https://www.facebook.com/" aria-label="Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a class="social-btn" href="https://www.instagram.com/" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a> -->
+        </div>
+
+        <!-- <button class="boton" onclick="mostrarTelefono()">
+        <i class="fas fa-phone"></i> Office Phone
+      </button> -->
+        <button class="boton" onclick="mostrarTelefono()">
+          <i class="fas fa-phone"></i> Office Phone
+        </button>
+        <div id="telefono-popup" class="popup" style="display:none;">
+          <div class="popup-content">
+            <p>Phone: (787) 993-3500 ext. 3656</p>
+            <div class="double-row">
+              <button class="boton half"
+                onclick="llamarTelefono()">Llamar</button>
+              <button class="boton half" onclick="cerrarPopup()">Cerrar</button>
+            </div>
+          </div>
+        </div>
+        <a class="boton" href="tel:+17876403652">
+          <i class="fa-solid fa-mobile-screen"></i> Cell Phone
+        </a>
+        <a class="boton" href="mailto:carlos.roldansoto@sheraton.com">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+        <a class="boton" href="http://marriott.com/sjusi">
+          <i class="fas fa-globe"></i> Website
+        </a>
+      </div>
+
+      <div class="double-row">
+        <button class="boton half" onclick="compartirEnlace()">
+          <i class="fas fa-share-alt"></i>Compartir
+        </button>
+        <button class="boton half" onclick="agregarContacto()">
+          <i class="fas fa-user-plus"></i>Agregar contacto
+        </button>
+      </div>
+      <div class="info-section">
+        <p><span style="font-size: 20px;">Sheraton Hotel & Casino</span><br>200
+          Convention Boulevard<br>San Juan, PR 00907</p>
+      </div>
+
+      <p class="powered-by">Powered by HA Technologies</p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
