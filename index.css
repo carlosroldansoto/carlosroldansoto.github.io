@@ -147,9 +147,8 @@ p {
 @media (max-width: 480px){
   body{ padding: 12px; }
   .card{ padding: 16px; }
-  .image-container{ margin-bottom: 50px; }
+  .image-container{ margin-bottom: 10px; }
   .banner{ height: 160px; }
-  .profile-img{ width: 70px; height:70px; bottom: -40px; }
   h1{ font-size: 30px; }
   .boton{ font-size: 15px; padding: 13px 0; }
   .social-btn{ width: 52px; height: 52px; font-size: 26px; }
@@ -158,7 +157,6 @@ p {
 @media (min-width: 769px){
   .card{ max-width: 550px; padding: 35px; }
   .banner{ height: 300px; }
-  .profile-img{ width:130px; height:130px; bottom:-55px; }
 }
 
 @media (max-width: 600px) {
